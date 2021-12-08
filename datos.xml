@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DatosEstudiantes class="Estudiantes" >
+
+       <Estudiante_1 class="E1">
+            <Cedula>0803680354</Cedula>
+            <Nombres> Larissa Lopéz Basurto </Nombres>
+            <Direccion> Esmeraldas </Direccion>
+            <Telefono>0960496803</Telefono>
+            <Correo> Larissalopez3001@gmail.com </Correo>
+            <Curso> Quinto</Curso>
+            <Paralelo>B</Paralelo>
+       </Estudiante_1>
+
+       <Estudiante_2 class="E2">
+            <Cedula>1311680358</Cedula>
+            <Nombres> Damian Lopéz Jimenez </Nombres>
+            <Direccion> Esmeraldas, Av 102 - Calle 20 </Direccion>
+            <Telefono>0999496888</Telefono>
+            <Correo> Damianlopez@gmail.com </Correo>
+            <Curso> Quinto</Curso>
+            <Paralelo>B</Paralelo>
+        </Estudiante_2>
+
+        <Estudiante_3 class="E3">
+            <Cedula>1311681254</Cedula>
+            <Nombres> Anthony Peréz Gómez </Nombres>
+            <Direccion> Manta, Av 12 - Calle 55 </Direccion>
+            <Telefono>0960336803</Telefono>
+            <Correo> Anthonyperez@gmail.com </Correo>
+            <Curso> Quinto</Curso>
+            <Paralelo>B</Paralelo>
+       </Estudiante_3>
+
+       <Estudiante_4 class="E4">
+            <Cedula>2303680555</Cedula>
+            <Nombres> Mateo Laz Tuarez </Nombres>
+            <Direccion> Manta, Av 23 - Calle 2  </Direccion>
+            <Telefono>0988496883</Telefono>
+            <Correo>  mateolaz@gmail.com </Correo>
+            <Curso> Quinto</Curso>
+            <Paralelo>B</Paralelo>>
+        </Estudiante_4>
+        
+        <Estudiante_5 class="E5">
+            <Cedula>1710368035</Cedula>
+            <Nombres> Mercedes Luna Valle </Nombres>
+            <Direccion> Esmeraldas, Av 23 - Calle 22 </Direccion>
+            <Telefono>0978996865</Telefono>
+            <Correo> mercedesluna@gmail.com </Correo>
+            <Curso> Quinto</Curso>
+            <Paralelo>B</Paralelo>
+       </Estudiante_5>
+
+       <Estudiante_6 class="E6">
+            <Cedula>1303680313</Cedula>
+            <Nombres>  Carla Sanchéz Valdez </Nombres>
+            <Direccion>Esmeraldas, Av 12 - Calle 45</Direccion>
+            <Telefono>0980496111</Telefono>
+            <Correo> carlasanchez@gmail.com </Correo>
+            <Curso> Quinto</Curso>
+            <Paralelo>B</Paralelo>
+        </Estudiante_6 >
+
+        <Estudiante_7 class="E7">
+            <Cedula>1378547878</Cedula>
+            <Nombres> Miriam Lainez Triviño </Nombres>
+            <Direccion> Esmeraldas, Av 44 - Calle 10 </Direccion>
+            <Telefono>0991280634</Telefono>
+            <Correo> mirianlainez@gmail.com </Correo>
+            <Curso> Quinto</Curso>
+            <Paralelo>B</Paralelo>
+       </Estudiante_7>
+
+       <Estudiante_8 class="E8">
+            <Cedula>1313680324</Cedula>
+            <Nombres> Noheli Salcedo Vela </Nombres>
+            <Direccion> Esmeraldas, Av 34 - Calle 23 </Direccion>
+            <Telefono>0960006803</Telefono>
+            <Correo> noheliisalced@gmail.com </Correo>
+            <Curso> Quinto</Curso>
+            <Paralelo>B</Paralelo>
+        </Estudiante_8>
+
+        <Estudiante_9 class="E9">
+            <Cedula>1323680322</Cedula>
+            <Nombres> Juan Noboa Ruiz </Nombres>
+            <Direccion> Esmeraldas, Av 45 - Calle 78 </Direccion>
+            <Telefono>0991968031</Telefono>
+            <Correo> juannoboa@gmail.com </Correo>
+            <Curso> Quinto</Curso>
+            <Paralelo>B</Paralelo>
+       </Estudiante_9>
+
+       <Estudiante_10 class="E10">
+            <Cedula>1303680378</Cedula>
+            <Nombres> Thalia Robles Peralta </Nombres>
+            <Direccion> Esmeraldas, Av 12 - Calle 23 </Direccion>
+            <Telefono>0960492424</Telefono>
+            <Correo> thaliarobles@gmail.com </Correo>
+            <Curso> Quinto</Curso>
+            <Paralelo>B</Paralelo>
+        </Estudiante_10>
+
+</DatosEstudiantes>

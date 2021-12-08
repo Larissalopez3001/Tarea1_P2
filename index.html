@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Página web con archivo JSON</title>
+    <link rel="stylesheet" href="syles.css">
+</head>
+<body>
+    <h1>Página web con archivo JSON</h1>
+   <div  id="json"></div>
+    <script type="text/javascript">
+
+        var DatosEstudiantes = { // Se crea una variable
+
+            "DatosEstudiantes":[ // Se crea un objetos con sus propiedades y eventos
+
+                {
+                    "Estudiante_1": [
+                    "Cedula: 0803680354",
+                    "Nombres : Larissa López Basurto",
+                    "Direccion : Esmeraldas",
+                    "Telefono: 0960496803",
+                    "Correo : Larissalopez3001@gmail.com",
+                    "Curso : Quinto",
+                    "Paralelo: B"
+                    ]
+                },
+                {
+                    "Estudiante_2": [
+                    "Cedula: 1311680358",
+                    "Nombres: Damian Lopéz Jimenez",
+                    "Direccion : Esmeraldas, Av 102 - Calle 20",
+                    "Telefono : 0999496888",
+                    "Correo : Damianlopez@gmail.com",
+                    "Curso : Quinto",
+                    "Paralelo: B"
+                    ]
+                    
+                },
+                {
+                    "Estudiante_3": [
+                    "Cedula: 1311681254",
+                    "Nombres : Anthony Peréz Gómez ",
+                    "Direccion : Manta, Av 12 - Calle 55 ",
+                    "Telefono : 0960336803",
+                    "Correo : Anthonyperez@gmail.com",
+                    "Curso : Quinto",
+                    "Paralelo: B"
+                    ]
+                },
+                {
+                    "Estudiante_4": [
+                    "Cedula : 2303680555",
+                    "Nombres : Mateo Laz Tuarez",
+                    "Direccion : Esmeraldas, Av 23 - Calle 2",
+                    "Telefono: 0988496883",
+                    "Correo : mateolaz@gmail.com",
+                    "Curso : Quinto",
+                    "Paralelo: B"
+                    ]
+                },
+                {
+                    "Estudiante_5": [
+                    "Cedula :1710368035",
+                    "Nombres : Mercedes Luna Valle",
+                    "Direccion : Esmeraldas, Av 23 - Calle 22",
+                    "Telefono: 0978996865",
+                    "Correo : mercedesluna@gmail.com",
+                    "Curso : Quinto",
+                    "Paralelo: B"
+                    ]
+                },
+                {
+                    "Estudiante_6": [
+                    "Cedula: 1303680313",
+                    "Nombres : Carla Sanchéz Valdez",
+                    "Direccion : Esmeraldas, Av 12 - Calle 45",
+                    "Telefono: 0980496111",
+                    "Correo : carlasanchez@gmail.com",
+                    "Curso : Quinto",
+                    "Paralelo: B"
+                    ]
+                },
+                {
+                    "Estudiante_7": [
+                    "Cedula : 1378547878",
+                    "Nombres : Miriam Lainez Triviño",
+                    "Direccion : Esmeraldas, Av 44 - Calle 10",
+                    "Telefono : 0991280634",
+                    "Correo : mirianlainez@gmail.com",
+                    "Curso : Quinto",
+                    "Paralelo: B"
+                    ]
+                },
+                {
+                    "Estudiante_8": [
+                    "Cedula : 1313680324",
+                    "Nombres : Noheli Salcedo Vela",
+                    "Direccion : Esmeraldas, Av 34 - Calle 23",
+                    "Telefono : 0960006803",
+                    "Correo : noheliisalced@gmail.com",
+                    "Curso : Quinto",
+                    "Paralelo : B"
+                    ]
+                },
+                {
+                    "Estudiante_9": [
+                    "Cedula : 1323680322",
+                    "Nombres : Juan Noboa Ruiz",
+                    "Direccion : Esmeraldas, Av 45 - Calle 78",
+                    "Telefono : 0991968031",
+                    "Correo : juannoboa@gmail.com",
+                    "Curso : Quinto",
+                    "Paralelo: B"
+                    ]
+                },
+                {
+                    "Estudiante_10": [
+                    "Cedula : 1303680378",
+                    "Nombres : Thalia Robles Peralta",
+                    "Direccion  : Esmeraldas, Av 12 - Calle 23",
+                    "Telefono : 0960492424",
+                    "Correo  : thaliarobles@gmail.com",
+                    "Curso  : Quinto",
+                    "Paralelo : B"
+                    ]
+                }
+            ] 
+        
+        };
+             function Datos() { //Se crea función 
+                    document.querySelector('pre').innerText = JSON.stringify(DatosEstudiantes, null, ' '); //Se toman los datos almacenados en PRE
+                }
+                    document.addEventListener('DOMContentLoaded', Datos); // Se adjunta ontrolador de evento y se dispara cuando el documento Ht¿TML se ha cargado
+                              
+ </script>
+        <pre></pre>
+</body>
+</html>

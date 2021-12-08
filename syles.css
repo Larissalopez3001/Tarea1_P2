@@ -1,0 +1,16 @@
+body{
+    background: #d3f1f7;
+}
+h1{
+    text-align: center;
+    font-size: 2.5em;
+    color: rgb(19, 109, 211);   
+}
+pre{
+    background: #faf4f4;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: 2em;
+    border-radius: 0.5em;
+  
+}
